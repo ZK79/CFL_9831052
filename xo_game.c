@@ -6,7 +6,7 @@ int main() {
     while(n<=9){
         scanf("%d",&x);
         if(game[x-1]!=' '){
-            printf ("invalid cell!");
+            printf ("invalid cell!\n");
             scanf("%d",&x);
         }
         game[x-1]='x';
@@ -20,7 +20,7 @@ int main() {
             break;
         scanf ("%d",&o);
         if(game[o-1]!=' '){
-            printf ("invalid cell!");
+            printf ("invalid cell!\n");
             scanf("%d",&o);
         }
         game[o-1]='o';
